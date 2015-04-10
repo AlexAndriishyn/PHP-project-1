@@ -1,0 +1,196 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize ================================================================================ */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+    margin: 0;
+}
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ * Remove text decoration.
+ */
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+    font-size: 80%;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+img {
+    border: 0;
+}
+
+/*!end of normalize.css v3.0.2 ============================================================================================================ */
+
+/* 
+    Created on : Feb 7, 2015, 7:28:51 PM
+    Author     : Oleksandr
+*/
+body {
+    font: 100% Helvetica, sans-serif;
+}
+
+
+/* navigation styles */
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+li {
+    background-color: #9f9bb9;
+    text-align: center;
+    display: inline-block;
+    width: 10%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    border: 1px solid white;
+    padding: 15%;
+}
+
+nav a:visited {
+    color: white;
+}
+
+td a:hover {
+    font-weight: bold;
+}
+/* Table styles */
+
+div.tablewrapper {
+    text-align: center;
+}
+
+div.tablewrapper table {
+    margin: 0 auto;
+}
+
+th {
+    text-align: center;
+    padding: 15px;
+    background-color: whitesmoke;
+}
+
+td {
+    padding : 2px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.column {
+    width: 70px;
+}
+
+.table_1st_column {
+    width: 130px;
+}
+
+/* Form styles */
+form, fieldset {
+    margin: 0 auto;
+}
+legend {
+    font: bold 1.4em/1.3 Tahoma, Verdana, serif;
+    text-align: center;
+}
+
+fieldset {
+    width: 400px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+
+div {
+    margin-bottom: 2%;
+}
+
+div:last-child {
+    margin-bottom: 0;
+}
+
+.row label {
+	display: inline-block;
+	width: 30%;
+	text-align: right;
+	padding-right: 1em;
+}
+
+.submit {
+    text-align: center;
+    margin-top: 1%;
+}
